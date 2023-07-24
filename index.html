@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Doggo Runner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: gray">
+    <canvas id="doggoRunnerCanvas">
+    </canvas>
+    <!--  IMAGES START  -->
+
+    <img id="player" src="assets/player.png" alt="">
+    <!--  PARTICLES  -->
+    <img id="fire" src="assets/fire.png" alt="">
+    <img id="boom" src="assets/boom.png" alt="">
+    <!--  UI  -->
+    <img id="heartGray" src="assets/heartGray.png" alt="">
+    <img id="heart" src="assets/heart.png" alt="">
+    <img id="soundToggler" src="assets/toggleSound.png" alt="">
+    <!--  FOREST BACKGROUND  -->
+    <img id="layer1" src="assets/forest/layer-1.png" alt="">
+    <img id="layer2" src="assets/forest/layer-2.png" alt="">
+    <img id="layer3" src="assets/forest/layer-3.png" alt="">
+    <img id="layer4" src="assets/forest/layer-4.png" alt="">
+    <img id="layer5" src="assets/forest/layer-5.png" alt="">
+    <!--  CITY BACKGROUND  -->
+    <!--    <img id="layer1" src="assets/city/layer-1.png" alt="">-->
+    <!--    <img id="layer2" src="assets/city/layer-2.png" alt="">-->
+    <!--    <img id="layer3" src="assets/city/layer-3.png" alt="">-->
+    <!--    <img id="layer4" src="assets/city/layer-4.png" alt="">-->
+    <!--    <img id="layer5" src="assets/city/layer-5.png" alt="">-->
+    <!--  ENEMIES  -->
+    <img id="enemy_fly" src="assets/enemy_fly.png" alt="">
+    <img id="enemy_plant" src="assets/enemy_plant.png" alt="">
+    <img id="enemy_spider_big" src="assets/enemy_spider_big.png" alt="">
+    <!--  IMAGES END  -->
+
+    <!--  AUDIO START  -->
+    <audio id="bgMusic" src="assets/audio/mainBgMusic.mp3" preload="auto" loop></audio>
+    <audio id="getHitSound" src="assets/audio/getHit.wav" preload="auto"></audio>
+    <audio id="killSound" src="assets/audio/killEnemy.wav" preload="auto"></audio>
+    <audio id="jumpSound" src="assets/audio/jump.mp3" preload="auto"></audio>
+    <audio id="rollingSound" src="assets/audio/rolling.mp3" preload="auto"></audio>
+    <audio id="landingSound" src="assets/audio/landingSplash.mp3" preload="auto"></audio>
+    <!--  AUDIO END  -->
+
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
